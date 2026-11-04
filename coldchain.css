@@ -1,0 +1,61 @@
+html{
+    background-color: rgb(203, 225, 244);
+}
+.layout {
+    display: flex;
+    gap: 20px;
+}
+#a
+{
+    color:rgb(19, 121, 238);
+    background-color:rgb(243, 243, 242);
+    padding : 40px;
+}
+#b {
+    width: 200px;
+    padding: 15px;
+    background-color: rgb(243, 243, 242);
+    border-radius: 8px;
+}
+
+#b a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+#b a:hover {
+    background-color: rgb(190, 218, 244);
+}
+
+main {
+    flex: 1;
+}
+.dashboard
+{
+    display : flex;
+    gap : 20px;
+    margin-top : 20px;
+}
+.box
+{
+    border : 1px solid black;
+    padding : 15px;
+    width :200px;
+    background-color: aliceblue;
+    border-radius: 8px
+}
+.shipments {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.box1 {
+    border: 1px solid black;
+    padding: 15px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}

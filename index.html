@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColdChain Monitoring Dashboard</title>
+    <link rel="stylesheet" href="coldchain.css">
+</head>
+<body>
+    <div id="a">
+    <h1>Cold Chain Storage Monitoring Dashboard</h1>
+    <p> A centralized dashboard for monitoring temperature conditions across cold chain shipments.</p><br>
+    </div> <br><br>
+
+    <div class = "layout">
+    <nav id="b">
+        <h3>Menu</h3>
+        
+        <a href="#overview">Overview</a><br>
+        <a href="#alerts">Alerts</a><br>
+        <a href="#shipments">Shipment Records</a><br>
+        <a href="#temprange">Threshold Configuration</a><br>
+        <a href="#status"> Shipment Status</a><br>
+        <a href="#incidents">Incident Records</a>
+        
+    </nav>
+    <main>
+    <!--add : Last Updated: 03 November 2026 | 06:30 PM to each section -->
+    <section id = "overview"> 
+        <div class="dashboard">
+        <div class="box"> 
+            <h3>Total Shipments</h3>
+            <p><b>8</b></p>
+            <p>Monitored Units</p>
+        </div>
+        <div class="box">
+            <h3>Unit Status</h3>
+            <p><b>5/8</b></p>
+            <p>Units in Good Condition</p>
+        </div>
+        <div class="box">
+            <h3>Temperature Alerts</h3>
+            <p><b>3/8</b></p>
+            <p>Units with Temperature Issues</p>
+        </div>
+        <div class="box">
+            <h3>On The Move</h3>
+            <p><b>3/8</b></p>
+            <p>Units Currently in Transit</p>
+        </div>
+        <div class="box">
+            <h3>Safely Delivered</h3>
+            <p><b>2/8</b></p>
+            <p>Units Delivered Without Issues</p>
+        </div></div>
+    </section>
+
+    <section class = "alerts" id = "alerts">
+        <h1 style = "color: red;">Require Action!</h1>
+        <p>Shipment SHP1026 is in Alert status. Shipment SHP1028 is in Delayed status.
+        Shipment SHP1031 is in Critical status.</p>
+    </section>
+
+    <section id = "shipments">
+        <div class = shipments>
+        <div class = "box1">
+            <h3>Shipment 1</h3>
+            <p>Shipment ID: SHP1024</p>
+            <P>Shipment from Ludhiana to Delhi</P>
+            <p>Carrying: Vaccines</p>
+            <p>Current temperature : 4.5°C</p>
+            <p>Current Status: <span style = 'color: green;'>In Transit </span></p>
+            <p> <a href = "unit1.html">View Timeline</a></p>
+            <!--green color in css -->
+        </div>
+        <div class = "box1">
+            <h3>Shipment 2</h3>
+            <p>Shipment ID: SHP1025</p>
+            <P>Shipment from Amritsar to Chandigarh</P>
+            <p>Carrying: Fresh Milk</p>
+            <p>Current temperature : 3.2°C</p>
+            <p>Current Status: <span style = 'color: blue;'>Delivered</span></p>
+            <p><a href = "unit2.html">View Timeline</a></p>
+            <!--green color in css -->
+        </div>
+        <div class = "box1">
+            <h3>Shipment 3</h3>
+            <p>Shipment ID: SHP1026</p>
+            <P>Shipment from Mumbai to Pune</P>
+            <p>Carrying: Frozen Fish</p>
+            <p>Current temperature : -12°C</p>
+            <p>Current Status: <span style = 'color: orange;'>Alert</span></p>
+            <p><a href = "unit3.html">View Timeline</a></p>
+            <!--redcolor in css -->
+        </div></div>
+        <br>
+        <div class = shipments>
+        <div class = "box1">
+            <h3>Shipment 4</h3>
+            <p>Shipment ID: SHP1027</p>
+            <P>Shipment from Delhi to Jaipur</P>
+            <p>Carrying: Insulin</p>
+            <p>Current temperature : 5.1°C</p>
+            <p>Current Status: <span style = 'color: green;'>In Transit</span></p>
+            <p><a href = "unit4.html">View Timeline</a></p>
+            <!--green color in css -->
+        </div>
+        <div class = "box1">
+            <h3>Shipment 5</h3>
+            <p>Shipment ID: SHP1028</p>
+            <P>Shipment from Shimla to Chandigarh</P>
+            <p>Carrying: Strawberries</p>
+            <p>Current temperature : 6.8°C</p>
+            <p>Current Status: <span style = 'color: brown;'>Delayed</span></p>
+            <p><a href = "unit5.html">View Timeline</a></p>
+            <!--orange color in css -->
+        </div>
+        <div class = "box1">
+            <h3>Shipment 6</h3>
+            <p>Shipment ID: SHP1029</p>
+            <P>Shipment from Ludhiana to Chandigarh</P>
+            <p>Carrying: Blood samples</p>
+            <p>Current temperature : 4.0°C</p>
+            <p>Current Status: <span style = 'color: green;'>In Transit</span></p>
+            <p><a href = "unit6.html">View Timeline</a></p>
+            <!--green color in css -->
+        </div></div>
+        <br>
+        <div class = shipments>
+        <div class = "box1">
+            <h3>Shipment 7</h3>
+            <p>Shipment ID: SHP1030</p>
+            <P>Shipment from Ludhiana to Jalandhar</P>
+            <p>Carrying: Frozen Chicken</p>
+            <p>Current temperature : -16°C</p>
+            <p>Current Status: <span style = 'color: blue;'>Delivered</span></p>
+            <p><a href = "unit7.html">View Timeline</a></p>
+            <!--green color in css -->
+        </div>
+        <div class = "box1">
+            <h3>Shipment 8</h3>
+            <p>Shipment ID: SHP1031</p>
+            <P>Shipment from Patiala to Delhi</P>
+            <p>Carrying: Dairy Products</p>
+            <p>Current temperature : 9.5°C</p>
+            <p>Current Status: <span style = 'color: red;'>Critical</span></p>
+            <p><a href = "unit8.html">View Timeline</a></p>
+            <!--red color in css -->
+        </div></div>
+    </section>
+
+    <section class = "temprange" id = "temprange">
+        <h3>Temperature Range for different Products</h3>
+        <p>Maximum and minimum permitted temperatures for each product:</p>
+        <table border = '2px' cellspacing = "0px" cellpadding = "10px">
+            <tr>
+                <th>Product</th>
+                <th>Permitted Temperature Range</th>
+            </tr>
+            <tr>
+                <td>Vaccines</td>
+                <td>2°C - 8°C</td>
+            </tr>
+            <tr>
+                <td>Fresh Milk</td>
+                <td>2°C - 6°C</td>
+            </tr>
+            <tr>
+                <td>Frozen Fish</td>
+                <td>-18°C - -15°C</td>
+            </tr>
+            <tr>
+                <td>Insulin</td>
+                <td>2°C - 8°C</td>
+            </tr>
+            <tr>
+                <td>Strawberries</td>
+                <td>0°C - 5°C</td>
+            </tr>
+            <tr>
+                <td>Blood Samples</td>
+                <td>2°C - 8°C</td>
+            </tr>
+            <tr>
+                <td>Frozen Chicken</td>
+                <td>-18°C - -15°C</td>  
+            </tr>
+            <tr>
+                <td>Dairy Products</td>
+                <td>2°C - 6°C</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class = "status" id = "status">
+        <h3>Shipment Status</h3>
+        <ul>
+            <li>In Transit: 3</li>
+            <li>Delivered: 2</li>
+            <li>Alert: 1</li>
+            <li>Delayed: 1</li>
+            <li>Critical: 1</li>
+        </ul>
+    </section>
+
+    <section class="incidents" id = "incidents">
+    <h3>Incident Records</h3>
+    <p>Recorded temperature-related incidents: 3</p>
+    <table border = '2px' cellspacing = "0px" cellpadding = "10px">
+        <tr>
+            <th>Incident ID</th>
+            <th>Shipment ID</th>
+            <th>Incident</th>
+            <th>Temperature</th>
+            <th>Severity</th>
+            <th>Resolution</th>
+        </tr>
+
+        <tr>
+            <td>INC001</td>
+            <td>SHP1026</td>
+            <td>Temperature Out of Range</td>
+            <td>-12°C</td>
+            <td>High</td>
+            <td>Under Investigation</td>
+        </tr>
+
+        <tr>
+            <td>INC002</td>
+            <td>SHP1028</td>
+            <td>Temperature Out of Range</td>
+            <td>6.8°C</td>
+            <td>Medium</td>
+            <td>Pending</td>
+        </tr>
+
+        <tr>
+            <td>INC003</td>
+            <td>SHP1031</td>
+            <td>Critical Temperature Alert</td>
+            <td>9.5°C</td>
+            <td>Critical</td>
+            <td>Under Investigation</td>
+        </tr>
+    </table>
+    </section>
+    <br><br>
+    <footer>
+        <h3>ColdChain Monitoring System</h3>
+        <p>Note: All shipment records and temperature readings displayed are hypothetical.</p>
+       <p>&copy; 2026 ColdChain Monitoring Dashboard. All Rights Reserved.</p>
+    </footer>
+    </main>
+    </div>
+    
+</body>
+</html>

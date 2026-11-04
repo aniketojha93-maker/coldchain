@@ -1,0 +1,14 @@
+h4{
+    color:skyblue;
+    font-size: large;
+    font-style: oblique;
+    text-decoration: underline;
+
+}
+html,body{
+    background-color:lavender;
+}
+.eventpending{
+    font-size: large;
+    color: red;
+}

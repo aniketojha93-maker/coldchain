@@ -1,0 +1,14 @@
+h4{
+    color: purple;
+    text-decoration: underline;
+    font-size: large;
+    font-style: italic;
+}
+.eventpending{
+    color: red;
+    font-size: large;
+    text-decoration: underline;
+}
+html,body{
+    background-color: bisque;
+}

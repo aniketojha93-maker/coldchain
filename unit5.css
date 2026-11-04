@@ -1,0 +1,15 @@
+html,body{
+    background-color: rgb(177, 190, 202);
+    
+    
+}
+h4{
+    color:cornsilk;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
+.eventpending{
+    color:red;
+    font-size: larger;
+}

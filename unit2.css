@@ -1,0 +1,9 @@
+h4{
+    color: green;
+    text-decoration:underline;
+    font-style: italic;
+}
+html,body{
+    color: gray;
+    background-color: lavenderblush;
+}
