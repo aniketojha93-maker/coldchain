@@ -17,16 +17,6 @@ h4
     
     
 }
-.eventpending :after{
-    color: red;
+
+
     
-font-size: larger;
-
-content: "\274C";
-
- }
- p1{
-
-    font-size: large;
-    color:red; 
- }
