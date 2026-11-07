@@ -1,12 +1,19 @@
+html, body{
+    margin: 10px;
+    padding: 0;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(157, 237, 181);
+}
+
 
 h4{
-    color: green;
-    text-decoration:underline;
-    font-style: italic;
-}
-html,body :after{
-    color: green;
-    background-color: lavenderblush;
+    color:rgb(76, 149, 76);
+    font-size: large;
 
-    
+}
+
+h4
+   { text-decoration: Bold;
+    font-weight: bold;
 }
