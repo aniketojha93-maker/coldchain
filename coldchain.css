@@ -1,5 +1,6 @@
 html{
     background-color: rgb(203, 225, 244);
+    font-family: Arial, Helvetica, sans-serif;
 }
 .layout {
     display: flex;
@@ -7,22 +8,27 @@ html{
 }
 #a
 {
-    color:rgb(19, 121, 238);
+    color:rgb(14, 74, 143);
     background-color:rgb(243, 243, 242);
+    font-size:20px;
     padding : 40px;
+    text-align: center;
 }
 #b {
     width: 200px;
     padding: 15px;
+    text-align: left;
     background-color: rgb(243, 243, 242);
+    color: rgb(42, 53, 198);
     border-radius: 8px;
 }
 
 #b a {
+    text-align: left;
     display: block;
     padding: 12px;
     text-decoration: none;
-    color: black;
+    color: rgb(42, 53, 198);
 }
 
 #b a:hover {
@@ -31,6 +37,8 @@ html{
 
 main {
     flex: 1;
+    font-size:20px;
+    margin-left: 40px;
 }
 .dashboard
 {
@@ -44,18 +52,19 @@ main {
     padding : 15px;
     width :200px;
     background-color: aliceblue;
-    border-radius: 8px
+    border-radius: 8px;
+    text-align: center;
 }
 .shipments {
     display: flex;
-    gap: 30px;
+    gap: 35px;
     margin-top: 20px;
 }
 
 .box1 {
     border: 1px solid black;
     padding: 15px;
-    width: 300px;
+    width: 350px;
     background-color: aliceblue;
     border-radius: 8px;
 }
